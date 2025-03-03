@@ -1,0 +1,10 @@
+.ca-servic-thumb-content ul li{
+    font-size: 20px !important;
+    margin-top: 20px !important;
+    color: #5A5D63 !important;
+    line-height: 26px !important;
+}
+.ca-servic-thumb-content ul li span{
+    color: black !important;
+    font-weight: 500 !important;
+}
