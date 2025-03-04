@@ -998,12 +998,12 @@ header.header-2.stiky.scroll-header .ca-header-bg-2 {
 }
 
 .ca-offcanvas-menu-3 ul .active>a {
-    color:#385f32 ;
+    color: #385f32;
 }
 
 .ca-offcanvas-menu-3 ul .active>.ca-menu-close3 {
     color: #fff;
-    background: #385f32 ;
+    background: #385f32;
 }
 
 .ca-offcanvas-menu-3 ul .active .ca-menu-close3 i {
@@ -1909,9 +1909,7 @@ section.ca-hero-area-1 {
     font-size: 64px;
     line-height: 72px;
     font-weight: 600;
-    letter-spacing: 1px;
-    -webkit-text-fill-color: #385f32;
-    -webkit-text-stroke-width: 2px;
+    color: #385f32 ;
 }
 
 .ca-slider-content-2 p {
@@ -2261,9 +2259,7 @@ section.ca-hero-area-1 {
 }
 
 
-.ca-slider-active-3 .slick-dots .slick-active button {
-    background: #385f32;
-}
+
 
 .ca-slider-active-3 {
     position: relative;
@@ -3180,6 +3176,9 @@ header.header-4 {
 
 .ca-ser-icon-box:hover:after {
     height: 100%;
+}
+.ca-ser-row:hover >:not(:hover){
+   opacity: 0.3;
 }
 
 
@@ -4135,6 +4134,7 @@ h3.ca-project-hov-title a {
 .ca-work-ic-box:hover {
     background-color: whitesmoke;
     transition: .3s;
+    transform: scale(1.1) !important;
 }
 
 .ca-work-ic-box:hover p {
@@ -6497,7 +6497,11 @@ button.ca-btn-primary.ca-btn-primary-2 span {
 .ca-breadcrumb-area {
     padding-top: 196px;
     padding-bottom: 80px;
-    background-image: url(/assets/img/Products/product-bg-darken.png);
+    background-image: url(assets/img/Products/product-bg-darken.png) !important;
+
+}
+.page-head-banner{
+   
 }
 
 .ca-breadcrumb-title {
@@ -6731,7 +6735,7 @@ button.ca-btn-primary.ca-btn-primary-2 span {
 }
 
 .ca-team-iner-social ul li a span:hover {
-    background: #0E47A1;
+    background: #385f32 ;
     color: #fff;
     transition: .3s;
 }
@@ -6743,7 +6747,7 @@ button.ca-btn-primary.ca-btn-primary-2 span {
 }
 
 .ca-team-inner:hover .ca-team-iner-share a {
-    background: #0E47A1;
+    background: #385f32 ;
     transition: .3s;
 }
 
@@ -6778,6 +6782,9 @@ button.ca-btn-primary.ca-btn-primary-2 span {
 
 .ca-ser-icon-box-2::after {
     background-color: #0E47A1;
+}
+.ca-ser-icon-box:hover{
+    transform: scale(1.1);
 }
 
 /* pagination */
@@ -6929,6 +6936,7 @@ button.ca-btn-primary.ca-btn-primary-2 span {
     font-weight: 700;
     font-size: 16px;
     line-height: 16px;
+    letter-spacing: 1px;
 }
 
 .ca-servic-list-title {
@@ -7445,7 +7453,7 @@ textarea {
 }
 
 .ca-cmt-from input {
-    border: 1px solid #E5E6E7;
+    border: 2px solid #385f32 ;
     border-radius: 7px;
     height: 56px;
 }
@@ -7538,8 +7546,13 @@ textarea {
 .ca-cmt-from .nice-select.wide.ca-select:focus {
     outline: none;
 }
+.ca-cmt-from .nice-select{
+    border: 2px solid  #385f32 ;
+}
 
-
+.ca-cmt-from textarea{
+    border: 2px solid  #385f32 ;
+}
 
 .ca-cmt-from .nice-select.wide.ca-select .current {
     color: #5A5D63;
@@ -7564,7 +7577,7 @@ textarea {
 }
 
 .ca-radion-btn input[type="radio"]:checked::before {
-    background: #0E47A1;
+    background: #385f32 ;
 }
 
 .ca-radion-btn {
@@ -7964,7 +7977,8 @@ textarea {
 .ctn-preloader .loader .loader-section {
     padding: 0px;
 }
-.ca-offcanvas-logo img{
+
+.ca-offcanvas-logo img {
     height: 40px !important;
 }
 
@@ -8057,7 +8071,11 @@ textarea {
     }
 
     .ca-slider-3 {
-        height: 650px;
+        height: 520px;
+    }
+    .ca-servic-thumb img{
+        height: auto;
+        width: auto;
     }
 
 }
@@ -8073,26 +8091,23 @@ textarea {
     }
 
     .cromo-paper img {
-        width: 100%;
+        width: auto;
         height: auto;
     }
-    .ca-hero-content-3 p{
-        color: #385f32 ;
+
+    .ca-hero-content-3 p {
+        color: #385f32;
     }
 
     .siliconized-paper img {
         width: 100%;
         height: auto;
     }
-    .ca-slider-heading {
-        border: none;
-        -webkit-text-fill-color: white;
-        -webkit-text-stroke-width: 2px;
-    }
-   
+
+
 }
 
 .hero-section {
-    background-image: url(/assets/img/banner/smiling-delivery-man-uniform-packing-cardboard-box.jpg);
-    background-size: cover;
+    background-image: url(assets/img/banner/smiling-delivery-man-uniform-packing-cardboard-box.jpg) !important;
+    background-size: cover !important;
 }
