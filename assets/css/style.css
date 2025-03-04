@@ -2240,23 +2240,6 @@ section.ca-hero-area-1 {
 }
 
 /* slider dot */
-.ca-slider-active-3 .slick-dots li button {
-    font-size: 0;
-    line-height: 0;
-    display: block;
-    width: 12px;
-    height: 12px;
-    padding: 5px;
-    cursor: pointer;
-    color: transparent;
-    border: 0;
-    outline: none;
-    background: #BECDE4;
-    border-radius: 50px;
-    display: inline-block;
-    line-height: 12px;
-    transform: translateY(-3px);
-}
 
 
 
@@ -2267,23 +2250,7 @@ section.ca-hero-area-1 {
 }
 
 
-.ca-slider-active-3 .slick-dots {
-    position: absolute;
-    right: 0;
-    top: -5%;
-    z-index: 999;
-    transform: rotate(90deg);
-    left: -63%;
-}
 
-.ca-slider-active-3 .slick-dots .slick-active {
-    background: #385f323a;
-    height: 25px;
-    width: 25px;
-    border-radius: 50px;
-    line-height: 30px;
-    text-align: center;
-}
 
 
 
