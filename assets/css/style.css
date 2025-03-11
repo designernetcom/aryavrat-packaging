@@ -2044,6 +2044,11 @@ section.ca-hero-area-1 {
     visibility: visible;
     transition: 1300ms;
 }
+@media (max-width:576px) {
+    .slider-2.slick-active .ca-slider-content-2 .ca-slider-heading {
+        margin-top: -20px;
+    }
+}
 
 .ca-slider-content-2 .slider-sub-content {
     transform: translatex(500px);
@@ -6556,12 +6561,12 @@ button.ca-btn-primary.ca-btn-primary-2 span {
 }
 
 .ca-value-cbox .ca-counter-title {
-    color: #00060F;
+    color:#385f32 ;
     transition: .3s;
 }
 
 .ca-value-cbox .ca-counter-title span {
-    color: #00060F;
+    color:#385f32 ;
     transition: .3s;
 }
 
