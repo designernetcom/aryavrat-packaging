@@ -8181,8 +8181,14 @@ textarea {
 .about-page-img{
     height: 500px;
 }
+.home-about-us-img{
+    height: 400px;
+}
 @media (max-width:600px) {
     .about-page-img{
         height: 300px;
+    }
+    .home-about-us-img{
+        height: 200px;
     }
 }
