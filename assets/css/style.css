@@ -8178,3 +8178,11 @@ textarea {
     color: #000000 !important;
     font-size: 25px !important;
 }
+.about-page-img{
+    height: 500px;
+}
+@media (max-width:600px) {
+    .about-page-img{
+        height: 300px;
+    }
+}
