@@ -1849,6 +1849,7 @@ section.ca-hero-area-1 {
     height: 376px !important;
     width: 140px;
     padding: 20px;
+    display: none;
 }
 
 .slider-nav.sm-slider-img {
@@ -3075,7 +3076,7 @@ header.header-4 {
     font-size: 20px;
     line-height: 16px;
     color: white;
-    font-weight: 700;
+    font-weight: 300;
     transition: .3s;
     padding: 5px 15px;
     background-color: #385f32;
@@ -6448,9 +6449,10 @@ button.ca-btn-primary.ca-btn-primary-2 span {
 .page-head-banner {}
 
 .ca-breadcrumb-title {
-    color: white;
-    font-size: 64px;
+    color:#385f32;
+     font-size: 40px;
     line-height: 64px;
+    margin-bottom: 30px;
 }
 
 .it-breadcum-link a {
